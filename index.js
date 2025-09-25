@@ -10,7 +10,7 @@ function contactClick() {
 
 function getPage() {
     let path = window.location.pathname
-    if(path === "/" || path === "") {
+    if(!path.split("/").pop()) {
         path = "/index.html";
     }
     return path.split("/").pop();
