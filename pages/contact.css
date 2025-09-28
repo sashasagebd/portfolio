@@ -30,34 +30,20 @@ html, body {
     padding: .5rem;
 }
 
-.project-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.project-element {
-    border-radius: 10%;
-    background-color: rgba(119, 135, 143, 0.75);
+.contact-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 4rem;
-    padding: 4rem;
-    padding-top: 1rem;
-    gap: 1rem;
-    flex-wrap: wrap;
-    max-width: 50vw;
 }
 
-.project-element img {
-    width: 50%;
-    height: 50%;
+.my-contact {
+
 }
 
-.img-row {
-    display: flex;
-    gap: 1rem;
+.give-contact {
+
+}
+
+.map {
+
 }
