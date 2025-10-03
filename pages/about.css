@@ -81,8 +81,21 @@ html, body {
     position: fixed;
     top: 50%;
     left: 50%;
-    height: 250px;
-    width: 250px;
+    height: 50%;
+    width: 50%;
     background-color: aliceblue;
     margin: 0 auto;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: .5rem;
 }
