@@ -36,42 +36,30 @@ html, body {
 
 .home-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
 }
 
-.about-container {
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-contents {
     display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    min-height: 5vh;
-    padding-left: 2rem;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: .5rem;
 }
 
-.section-container {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.contact-button {
-    max-width: 100px;
-    background-color: rgb(0, 0, 255);
-}
-
-.contact {
-    margin-bottom: 3rem;
-}
-
-.me-pic {
-    width: 40%;
-    height: 80%;
-    margin-bottom: 3rem;
+.modal {
+    display: none;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+    margin: 0 auto;
 }

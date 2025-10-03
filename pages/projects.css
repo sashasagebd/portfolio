@@ -61,3 +61,12 @@ html, body {
     display: flex;
     gap: 1rem;
 }
+
+.modal {
+    display: none;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+    margin: 0 auto;
+}

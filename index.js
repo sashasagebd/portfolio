@@ -1,13 +1,3 @@
-function contactClick() {
-    const container = document.getElementById("contact-info");
-    if(container.style.display === "none") {
-        container.style.display = "block";
-    }
-    else {
-        container.style.display = "none";
-    }
-}
-
 function getPage() {
     let path = window.location.pathname
     if(!path.split("/").pop()) {
@@ -34,3 +24,13 @@ function highlightNav() {
 document.addEventListener("DOMContentLoaded", () => {
     highlightNav();
 });
+
+function openModal(string) {
+    const modal = document.getElementById(string);
+    modal.style.display = "block";
+}
+
+function closeModal(string) {
+    const modal = document.getElementById(string);
+    modal.style.display = "none";
+}
